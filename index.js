@@ -23,6 +23,6 @@ function greet(timeString) {
 
 function displayMessage(content){
   document.getElementById("greeting").innerText = content
-  
-  
+
+
 }
