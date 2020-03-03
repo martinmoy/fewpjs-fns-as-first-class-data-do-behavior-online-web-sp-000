@@ -13,7 +13,7 @@ function greet(timeString) {
   let timevalue = timeString.split(":");
   let combinedtime = timevalue[0];
 
-  if (combinedtime > 12) {
+  if (combinedtime < 12) {
     return "Good Morning";
   }
 
