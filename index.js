@@ -13,9 +13,9 @@ function greet(timeString) {
   let timevalue = timeString.split(":");
   let times = timevalue[0];
 
-    if (times[0] < 12) {
+    if (times < 12) {
     return "Good Morning";}
-    else if (times[0]>12  && times[0] < 17) {
+    else if (times>12  && times < 17) {
     return "Good Afternoon";}
     else {
     return "Good Evening";}
