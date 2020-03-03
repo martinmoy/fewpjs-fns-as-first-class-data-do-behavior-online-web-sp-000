@@ -23,5 +23,3 @@ function greet(timeString) {
 
   else  if (17 < combinedtime < 24){
   return "Good Evening"}
-
-
