@@ -20,3 +20,9 @@ function greet(timeString) {
     else {
     return "Good Evening";}
 }
+
+function displayMessage(content){
+  document.getElementById("greeting").innerText = content
+  
+  
+}
