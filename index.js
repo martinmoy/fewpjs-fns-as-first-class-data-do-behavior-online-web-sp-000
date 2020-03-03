@@ -21,7 +21,7 @@ function greet(timeString) {
     return "Good Afternoon";
   }
 
-  else  if (17 <combinedtime < 24)
-  return "Good Evening"
+  else  if (17 < combinedtime < 24){
+  return "Good Evening"}
 
-}
+
