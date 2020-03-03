@@ -9,3 +9,12 @@ function handleClick(e) {
 
 /* Write your implementation of greet() */
 /* Write your implementation of displayMessage() */
+function greet(timeString) {
+  let timevalue = timeString.split(":");
+  let combinedtime = timevalue[0];
+
+  if (combinedtime > 12) {
+    return "Good Morning";
+  }
+
+}
